@@ -26,6 +26,11 @@
 		<module>hystrix-dashboard</module>
 		<module>api-gateway-zuul</module>
 		<module>eureka-naming-server</module>
+		<module>inventory-services</module>
+		<module>order-mgmt-services</module>
+		<module>customer-mgmt-services</module>
+		<module>payments-services</module>
+		<module>shipping-services</module>
 	</modules>
 
 	<dependencyManagement>

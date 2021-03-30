@@ -1,7 +1,0 @@
-# bootstrap context is responsible for loading configuration properties from the external sources
-# When the Spring Cloud application starts, it creates a bootstrap context.
-# The first thing to remember is that the bootstrap context is the parent context for the main application.
-
-spring:
-  application:
-    name: eureka-service

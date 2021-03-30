@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: zuul-api-gw
-  cloud:
-    config:
-      uri: http://localhost:8888

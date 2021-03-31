@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.bilqu</groupId>
-        <artifactId>microservices-poc</artifactId>
+        <artifactId>ms-retail-system</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bilqu</groupId>
-	<artifactId>microservices-poc</artifactId>
+	<artifactId>ms-retail-system</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -31,6 +31,7 @@
 		<module>customer-mgmt-services</module>
 		<module>payments-services</module>
 		<module>shipping-services</module>
+		<module>api-gateway-spring</module>
 	</modules>
 
 	<dependencyManagement>

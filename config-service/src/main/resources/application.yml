@@ -13,5 +13,4 @@ spring:
       enabled: true
       server:
         git:
-          uri: https://github.com/microservices-poc/config-repository
-          basedir: target/config
+          uri: https://github.com/vimalraj84/ms-retail-system/tree/main/config-repository

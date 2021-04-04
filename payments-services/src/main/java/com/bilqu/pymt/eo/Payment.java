@@ -1,4 +1,4 @@
-package com.bilqu.pymt.bo;
+package com.bilqu.pymt.eo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

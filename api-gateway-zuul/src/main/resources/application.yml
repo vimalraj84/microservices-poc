@@ -1,5 +1,5 @@
 server:
-  port: 8765
+  port: ${port:8765}
 
 endpoints:
   restart:

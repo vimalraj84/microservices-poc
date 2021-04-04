@@ -1,6 +1,6 @@
 package com.bilqu.invt.service;
 
-import com.bilqu.invt.bo.Inventory;
+import com.bilqu.invt.eo.Inventory;
 import com.bilqu.invt.dao.InventoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

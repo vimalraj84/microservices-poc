@@ -1,6 +1,6 @@
 package com.bilqu.custmgmt.service;
 
-import com.bilqu.custmgmt.bo.Customer;
+import com.bilqu.custmgmt.eo.Customer;
 import com.bilqu.custmgmt.dao.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

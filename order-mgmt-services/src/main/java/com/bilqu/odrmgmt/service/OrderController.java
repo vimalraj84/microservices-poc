@@ -1,6 +1,6 @@
 package com.bilqu.odrmgmt.service;
 
-import com.bilqu.odrmgmt.bo.Order;
+import com.bilqu.odrmgmt.eo.Order;
 import com.bilqu.odrmgmt.dao.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

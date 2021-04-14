@@ -19,17 +19,17 @@ public class PaymentService {
     @Autowired
     private PaymentRepository paymentRepository;
 
-    @GetMapping("/payment")
+    @GetMapping("/payment/{paymentId}")
     public @ResponseBody Optional<Payment> getPayment(@PathVariable(name = "paymentId") Integer paymentId){
         return paymentRepository.findById(paymentId);
     }
 
-    @GetMapping("/payment/customer")
+    @GetMapping("/payment/customer/{custId}")
     public @ResponseBody List<Payment> getPaymentByCustomer(@PathVariable(name = "custId") Integer custId){
         return paymentRepository.findAllByCustId(custId);
     }
 
-    @GetMapping("/payment/order")
+    @GetMapping("/payment/order/{orderId}")
     public @ResponseBody  List<Payment> getPaymentByOrder(@PathVariable(name = "orderId") Integer orderId){
         return paymentRepository.findAllByCustId(orderId);
     }

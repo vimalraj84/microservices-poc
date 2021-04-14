@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.ws.rs.PathParam;
+import java.util.Optional;
 
 @RestController
 public class InventoryController {
@@ -18,9 +19,9 @@ public class InventoryController {
     @Autowired
     private InventoryRepository inventoryRepository;
 
-    @GetMapping("/item")
-    public Inventory findItem(@PathParam("sku") Integer sku){
-        return inventoryRepository.searchBySku(sku);
+    @GetMapping("/item/{sku}")
+    public Optional<Inventory> findItem(@PathParam("sku") Integer sku){
+        return inventoryRepository.findById(sku);
     }
 
     public int getStock(@PathParam("sku") Integer sku){

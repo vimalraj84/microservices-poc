@@ -1,13 +1,13 @@
 package com.bilqu.pymt.eo;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity(name = "PAYMENT")
 public class Payment {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pay_seq")
+    @SequenceGenerator(name = "pay_seq", sequenceName = "PAYMENT_ID", initialValue = 7001, allocationSize = 1)
     private Integer paymentId;
     @Column(name="MODE")
     private String mode;

@@ -1,8 +1,6 @@
 package com.bilqu.invt.eo;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity(name = "INVENTORY")

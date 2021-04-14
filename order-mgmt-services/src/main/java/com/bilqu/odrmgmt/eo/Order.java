@@ -1,13 +1,13 @@
 package com.bilqu.odrmgmt.eo;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity(name="Order")
 public class Order {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "order_seq")
+    @SequenceGenerator(name = "order_seq", sequenceName = "ORDER_ID", initialValue = 1001, allocationSize = 1)
     private Integer orderId;
     @Column(name = "SKU")
     private Integer sku;

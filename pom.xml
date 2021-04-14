@@ -32,7 +32,8 @@
 		<module>payments-services</module>
 		<module>shipping-services</module>
 		<module>api-gateway-spring</module>
-	</modules>
+        <module>app-security</module>
+    </modules>
 
 	<dependencyManagement>
 		<dependencies>

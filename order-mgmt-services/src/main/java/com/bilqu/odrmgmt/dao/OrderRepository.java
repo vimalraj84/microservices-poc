@@ -1,6 +1,6 @@
 package com.bilqu.odrmgmt.dao;
 
-import com.bilqu.odrmgmt.bo.Order;
+import com.bilqu.odrmgmt.eo.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.bilqu.invt.dao;
 
-import com.bilqu.invt.bo.Inventory;
+import com.bilqu.invt.eo.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface InventoryRepository extends JpaRepository<Inventory,Integer> {

@@ -1,6 +1,6 @@
 package com.bilqu.pymt.dao;
 
-import com.bilqu.pymt.bo.Payment;
+import com.bilqu.pymt.eo.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bilqu.custmgmt.bo;
+package com.bilqu.custmgmt.eo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

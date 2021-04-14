@@ -1,4 +1,4 @@
-package com.bilqu.odrmgmt.bo;
+package com.bilqu.odrmgmt.eo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

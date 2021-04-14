@@ -1,6 +1,6 @@
 package com.bilqu.pymt.service;
 
-import com.bilqu.pymt.bo.Payment;
+import com.bilqu.pymt.eo.Payment;
 import com.bilqu.pymt.dao.PaymentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

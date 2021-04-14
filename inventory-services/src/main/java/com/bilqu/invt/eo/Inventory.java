@@ -1,4 +1,4 @@
-package com.bilqu.invt.bo;
+package com.bilqu.invt.eo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
